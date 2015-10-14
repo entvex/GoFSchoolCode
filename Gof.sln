@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{80D03E57-2467-4001-BCCD-AC8BBA18B738}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPatternPullVariant", "ObserverPattern\ObserverPatternPullVariant.csproj", "{80D03E57-2467-4001-BCCD-AC8BBA18B738}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPatternPushVariant", "ObserverPatternPushVariant\ObserverPatternPushVariant.csproj", "{B1CAF61D-D2F8-4DF7-A201-DE834267E1E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{51ADB4DE-25AB-4C55-8AFE-85B4FE2CF3E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{80D03E57-2467-4001-BCCD-AC8BBA18B738}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80D03E57-2467-4001-BCCD-AC8BBA18B738}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80D03E57-2467-4001-BCCD-AC8BBA18B738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1CAF61D-D2F8-4DF7-A201-DE834267E1E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1CAF61D-D2F8-4DF7-A201-DE834267E1E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1CAF61D-D2F8-4DF7-A201-DE834267E1E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1CAF61D-D2F8-4DF7-A201-DE834267E1E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51ADB4DE-25AB-4C55-8AFE-85B4FE2CF3E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51ADB4DE-25AB-4C55-8AFE-85B4FE2CF3E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51ADB4DE-25AB-4C55-8AFE-85B4FE2CF3E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51ADB4DE-25AB-4C55-8AFE-85B4FE2CF3E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

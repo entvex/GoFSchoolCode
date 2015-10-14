@@ -16,15 +16,13 @@ namespace ObserverPattern
             StockOption google = new StockOption("google", 100);
             StockOption microsoft = new StockOption("microsoft", 100);
 
-            StockGuy stockGuy = new StockGuy("Carl");
+            dell.Attach(new StockGuy("Henrik", dell));
+            google.Attach(new StockGuy("David", google));
+            microsoft.Attach(new StockGuy("Kasper", microsoft));
 
-            dell.Attach(stockGuy);
-            google.Attach(stockGuy);
-            microsoft.Attach(stockGuy);
-
-            dell.UpdatePrice(random.Next(70,150) + random.NextDouble());
-            google.UpdatePrice(random.Next(70, 150) + random.NextDouble());
-            microsoft.UpdatePrice(random.Next(70, 150) + random.NextDouble());
+            dell.Price = (random.Next(70,150) + random.NextDouble());
+            google.Price = (random.Next(70, 150) + random.NextDouble());
+            microsoft.Price = (random.Next(70, 150) + random.NextDouble());
         }
     }
 }
