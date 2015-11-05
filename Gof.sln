@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPatternPushVariant"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{51ADB4DE-25AB-4C55-8AFE-85B4FE2CF3E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{8C98D619-CC97-4989-8B45-E4D742A2F970}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoFState", "GoFState\GoFState.csproj", "{1458C7DB-7092-465D-986E-5BAF0D7EEEEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{51ADB4DE-25AB-4C55-8AFE-85B4FE2CF3E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51ADB4DE-25AB-4C55-8AFE-85B4FE2CF3E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51ADB4DE-25AB-4C55-8AFE-85B4FE2CF3E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C98D619-CC97-4989-8B45-E4D742A2F970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C98D619-CC97-4989-8B45-E4D742A2F970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C98D619-CC97-4989-8B45-E4D742A2F970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C98D619-CC97-4989-8B45-E4D742A2F970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1458C7DB-7092-465D-986E-5BAF0D7EEEEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1458C7DB-7092-465D-986E-5BAF0D7EEEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1458C7DB-7092-465D-986E-5BAF0D7EEEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1458C7DB-7092-465D-986E-5BAF0D7EEEEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

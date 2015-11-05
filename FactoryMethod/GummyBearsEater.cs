@@ -7,7 +7,7 @@
     {
         public override Sugar EatSugar()
         {
-            return new Gummybears();
+            return Sugar = new Gummybears();
         }
     }
 }

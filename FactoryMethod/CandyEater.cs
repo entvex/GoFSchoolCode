@@ -12,14 +12,19 @@ namespace FactoryMethod
             Sugar = EatSugar();
         }
 
+
         public Sugar Sugar { get; set; }
 
+        //FactoryMethod see overrides in ChikkiEater, GummyBearsEater and PantteriEater.
         public abstract Sugar EatSugar();
-
 
         public void DisplayEatenSuger()
         {
             Console.WriteLine(Sugar.GetType().ToString());
         }
     }
+
 }
+
+
+

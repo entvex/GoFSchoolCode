@@ -10,10 +10,10 @@ namespace FactoryMethod
     {
         static void Main(string[] args)
         {
-            FactoryMethod();
+            FactoryMethodtester();
         }
 
-        private static void FactoryMethod()
+        private static void FactoryMethodtester()
         {
             List<CandyEater> candyEaters = new List<CandyEater>();
 
