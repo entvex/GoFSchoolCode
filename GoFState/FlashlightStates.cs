@@ -15,8 +15,9 @@
     {
         public override void HandlePower(Flashlight context)
         {
-            context.LightOn();
+            context.LightOff();
             context.SetState(new Off());
+
         }
     }
 
@@ -27,7 +28,7 @@
     {
         public override void HandlePower(Flashlight context)
         {
-            context.LightOff();
+            context.LightOn();
             context.SetState(new On());
         }
     }

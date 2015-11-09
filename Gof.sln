@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "Abstract
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoFState", "GoFState\GoFState.csproj", "{1458C7DB-7092-465D-986E-5BAF0D7EEEEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoFStateNasted", "GoFStateNasted\GoFStateNasted.csproj", "{95AC9006-1144-4BF0-BEDC-5ACD3616ECF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1458C7DB-7092-465D-986E-5BAF0D7EEEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1458C7DB-7092-465D-986E-5BAF0D7EEEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1458C7DB-7092-465D-986E-5BAF0D7EEEEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95AC9006-1144-4BF0-BEDC-5ACD3616ECF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95AC9006-1144-4BF0-BEDC-5ACD3616ECF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95AC9006-1144-4BF0-BEDC-5ACD3616ECF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95AC9006-1144-4BF0-BEDC-5ACD3616ECF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
