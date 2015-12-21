@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoFStateNasted", "GoFStateN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOFStrategy", "GOFStrategy\GOFStrategy.csproj", "{D31E787E-3E8F-4C6C-9224-11B134E25D04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{6FD25785-9A09-4AC6-830D-7E4C7612D249}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{D31E787E-3E8F-4C6C-9224-11B134E25D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D31E787E-3E8F-4C6C-9224-11B134E25D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D31E787E-3E8F-4C6C-9224-11B134E25D04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FD25785-9A09-4AC6-830D-7E4C7612D249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD25785-9A09-4AC6-830D-7E4C7612D249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD25785-9A09-4AC6-830D-7E4C7612D249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD25785-9A09-4AC6-830D-7E4C7612D249}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
