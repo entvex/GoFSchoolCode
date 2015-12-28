@@ -1,19 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
-
-
-    //TODO THIS IS WORK IN PROGESS!!!!!!!!!!!!!
-
-
-    public class Class1
+    class Program
     {
+        public static void Main()
+        {
+            // Create and run the battleGround
+            StrikingBattleGroundFactory battleGroundFactory = new StrikingBattleGroundFactory();
+            KarateStyle karateStyle = battleGroundFactory.CreateKarateClub();
+            TaekwondoStyle taekwondoStyle = battleGroundFactory.CreateTaekwondoClub();
 
+            karateStyle.Battles(taekwondoStyle);
+        }
     }
 
     /// <summary>
@@ -48,31 +47,32 @@ namespace AbstractFactory
     {
         public override void Battles(KarateStyle karateFighter)
         {
-            throw new NotImplementedException();
-        }
-    }
-
-    public class KarateBlueBelt : KarateStyle
-    {
-        public override void Battles(TaekwondoStyle taekwondoStyle)
-        {
-            throw new NotImplementedException();
+            Console.WriteLine(this.GetType().Name +" battles " + karateFighter.GetType().Name);
         }
     }
 
     /// <summary>
-    /// The 'AbstractFactory' abstract class
+    /// The 'KarateBlueBelt' class
     /// </summary>
-    public class StrikingBattleGround : StrikingFactory
+    public class KarateBlueBelt : KarateStyle
+    {
+        public override void Battles(TaekwondoStyle taekwondoStyle)
+        {
+            Console.WriteLine(this.GetType().Name + " battles " + taekwondoStyle.GetType().Name);
+        }
+    }
+
+
+    public class StrikingBattleGroundFactory : StrikingFactory
     {
         public override TaekwondoStyle CreateTaekwondoClub()
         {
-            throw new NotImplementedException();
+            return new TaekwondoBlackBelt();
         }
 
         public override KarateStyle CreateKarateClub()
         {
-            throw new NotImplementedException();
+            return new KarateBlueBelt();
         }
     }
 }
